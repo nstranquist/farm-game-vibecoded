@@ -1,0 +1,19 @@
+schema_version: 1
+id: product.farm-game
+name: Farm Game
+surface: products
+kind: product
+status: experimental
+pricing: Free OSS game (already public on GitHub).
+launch: built
+license: MIT
+tags:
+    - game
+    - farming-sim
+    - multiplayer
+    - realtime
+    - react
+    - websocket
+    - oss
+description: Complete, playable multiplayer farm-building game — React/Vite client + Express/Socket.IO server + SQLite, real-time grid expansion, plant upgrades, harvest currency. Small but coherent and well-documented MVP.
+portfolio_manifest: portfolio/manifest.yaml
