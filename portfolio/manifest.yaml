@@ -1,8 +1,11 @@
 schema_version: 1
 product_id: product.farm-game
 visibility: internal
-reviewed: false
-assets: []
+reviewed: true
+assets:
+  - path: portfolio/assets/catalog-gallery-login.png
+    kind: screenshot
+    alt: Farm Game login screen with wheat mark on a blue and purple gradient
 case_study:
-    enabled: false
-    evidence: []
+  enabled: false
+  evidence: []
