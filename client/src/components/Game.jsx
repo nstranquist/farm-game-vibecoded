@@ -21,7 +21,7 @@ const Game = ({ token, username, onLogout }) => {
     getPlantTypes().then(setPlantTypes);
 
     // Connect to WebSocket
-    const socket = connectSocket(token);
+    connectSocket(token);
 
     // Request initial game state
     emitEvent('getGameState');

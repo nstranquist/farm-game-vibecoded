@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import './GameGrid.css';
 
 const GameGrid = ({ 
@@ -27,7 +27,7 @@ const GameGrid = ({
     }
   };
 
-  const getPlantEmoji = (plantType, growthStage, level) => {
+  const getPlantEmoji = (plantType, growthStage) => {
     const plantEmojis = {
       wheat: growthStage === 0 ? '🌱' : '🌾',
       corn: growthStage === 0 ? '🌱' : '🌽',
@@ -55,7 +55,7 @@ const GameGrid = ({
             {plant ? (
               <div className={`plant ${plant.growth_stage === 1 ? 'grown' : 'growing'}`}>
                 <div className="plant-emoji">
-                  {getPlantEmoji(plant.plant_type, plant.growth_stage, plant.level)}
+                  {getPlantEmoji(plant.plant_type, plant.growth_stage)}
                 </div>
                 {plant.level > 1 && (
                   <div className="plant-level">Lv.{plant.level}</div>
