@@ -12,7 +12,7 @@ assets:
       provenance: authored-svg
       copyright_owner: Nico Stranquist
       generator: catalog-brand-svg/v2
-      concept: hearth-home
+      concept: cultivated-field
       score: 100
 case_study:
     enabled: false
