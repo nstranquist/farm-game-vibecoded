@@ -1,0 +1,19 @@
+schema_version: 1
+product_id: product.farm-game
+visibility: internal
+reviewed: true
+assets:
+    - path: portfolio/assets/catalog-gallery-login.png
+      kind: screenshot
+      alt: Farm Game login screen with wheat mark on a blue and purple gradient
+    - path: assets/brand/farm-game.svg
+      kind: logo
+      alt: Farm Game application icon
+      provenance: authored-svg
+      copyright_owner: Nico Stranquist
+      generator: catalog-brand-svg/v2
+      concept: cultivated-field
+      score: 100
+case_study:
+    enabled: false
+    evidence: []
